@@ -1,4 +1,5 @@
 import React from "react";
+import LogosSlider from "./LogosSlider";
 
 const OurTrustedSuppliersAndProducts = () => {
   const images = [
@@ -39,7 +40,9 @@ const OurTrustedSuppliersAndProducts = () => {
           levels of satisfaction and performance in every aspect of our
           operations.
         </p>
-        <div className="my-[77px]">marquee slider</div>
+        <div className="my-[77px] w-full">
+          <LogosSlider />
+        </div>
         <div className="flex lg:flex-row flex-col items-center md:justify-between justify-center max-w-[1235px] mb-[40px] lg:gap-0 gap-[40px]">
           <div className="relative">
             <div className="grid grid-cols-2 grid-rows-2 xl:gap-[30px] sm:gap-[20px] gap-[15px] justify-around">
