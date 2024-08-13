@@ -103,7 +103,7 @@ const OurAervices = () => {
       <div className='relative'>
         <div className='mt-5 w-full max-w-[1180px] mx-auto flex flex-col gap-6'>
           {services.slice(currentStartIndex, currentStartIndex + itemsPerPage).map((service, index) => (
-            <div key={index} className='flex items-center justify-between mdl:flex-row flex-col gap-5 bg-white rounded-[20px] px-6'>
+            <div key={index} className='flex items-center justify-between mdl:flex-row flex-col gap-5 bg-white rounded-[20px] px-6 py-3'>
               <div className='md:p-5 flex items-center gap-5 md:flex-row flex-col lg:gap-10'>
                 <Image src={service.imageSrc} alt={service.imageAlt} width={320} height={246} />
                 <div>
