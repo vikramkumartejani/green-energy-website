@@ -14,17 +14,17 @@ import KeyDepartments from "./components/KeyDepartments";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <AboutUs/>
-      <OurTeam/>
-      <KeyDepartments/>
-      <OurLocation/>
-      <Work/>
-      <OurAervices/>
-      {/* <OurTrustedSuppliersAndProducts/> */}
-      <ForYourInquiry/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <OurTeam />
+      <KeyDepartments />
+      <OurLocation />
+      <Work />
+      <OurAervices />
+      <OurTrustedSuppliersAndProducts />
+      <ForYourInquiry />
+      <Footer />
     </div>
   );
 }
