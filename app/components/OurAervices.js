@@ -26,22 +26,22 @@ const OurAervices = () => {
           <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
           <h3 className='text-[#294145] text-base font-semibold'>Our Aervices</h3>
         </div>
-        <h3 className='text-[#103B38] text-[23px] sm:text-[34px] font-semibold text-center capitalize'>We&apos;re on a mission to protect our beloved</h3>
-        <h3 className='text-[#6EA343] text-[23px] sm:text-[34px] font-semibold text-center mb-2'>Environment!</h3>
-        <p className='text-[#666666] text-[13px] sm:text-[22px] leading-[22px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1033px] mx-auto'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 className='text-[#103B38] text-[22px] sm:text-[28px] font-semibold text-center capitalize'>We&apos;re on a mission to protect our beloved</h3>
+        <h3 className='text-[#6EA343] text-[22px] sm:text-[28px] font-semibold text-center mb-2'>Environment!</h3>
+        <p className='text-[#666666] text-[12px] sm:text-[18px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1033px] mx-auto'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div className='mt-5 w-full max-w-[1246px] mx-auto flex flex-col gap-6'>
+      <div className='mt-5 w-full max-w-[1146px] mx-auto flex flex-col gap-6'>
         {services.map((service, index) => (
           <div key={index} className='flex items-center justify-between mdl:flex-row flex-col gap-5'>
             <div className='md:p-5 flex items-center gap-5 md:flex-row flex-col lg:gap-10'>
-              <Image src={service.imageSrc} alt={service.imageAlt} width={370} height={246} />
+              <Image src={service.imageSrc} alt={service.imageAlt} width={320} height={246} />
               <div>
-                <h3 className='text-[#044E29] text-[20px] lg:text-[24px] leading-[36px] font-semibold mb-2.5'>{service.title}</h3>
-                <p className='md:max-w-[539px] text-[#666666] text-[16px] lg:text-[22px] leading-[20px] lg:leading-[22.5px] font-normal'>{service.description}</p>
+                <h3 className='text-[#044E29] text-[20px] lg:text-[20px] leading-[36px] font-semibold mb-2.5'>{service.title}</h3>
+                <p className='md:max-w-[539px] text-[#666666] text-[13px] lg:text-[18px] leading-[20px] lg:leading-[22.5px] font-normal'>{service.description}</p>
               </div>
             </div>
-            <button className='bg-[#0C4B3E] rounded-md w-[132px] h-[47px] text-[15px] leading-[22.5px] font-medium text-white'>{service.buttonText}</button>
+            <button className='bg-[#0C4B3E] rounded-md w-[125px] h-[40px] text-[14px] leading-[22.5px] font-medium text-white'>{service.buttonText}</button>
           </div>
         ))}
       </div>

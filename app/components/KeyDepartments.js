@@ -68,8 +68,8 @@ const KeyDepartments = () => {
             <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
             <h3 className='text-[#294145] text-base font-semibold'>KEY</h3>
           </div>
-          <h3 className='text-[#103B38] text-[25px] sm:text-[33px] leading-[55px] font-semibold font-archivo text-center'>KEY DEPARTMENTS</h3>
-          <p className='text-[#666666] text-[18px] sm:text-[22px] leading-[27px] text-center font-normal font-inter w-full max-w-[858px] mx-auto'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 className='text-[#103B38] text-[22px] sm:text-[28px] lg:leading-[55px] font-semibold font-archivo text-center'>KEY DEPARTMENTS</h3>
+          <p className='text-[#666666] text-[16px] sm:text-[20px] leading-[27px] text-center font-normal font-inter w-full max-w-[700px] mx-auto'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
         {/* Boxes */}
@@ -78,17 +78,17 @@ const KeyDepartments = () => {
             <div key={department.id} className='sm:w-[406px] w-full'>
               {department.image ? (
                 <div className='w-full h-full'>
-                <Image src={department.image} alt='box' width={406} height={500} className='w-full mdl:w-[406px] min-h-full' />
+                <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]' />
                 </div>
               ) : (
                 <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7'>
-                  <div className='flex flex-col gap-4 sm:gap-6 border-b border-[#C3C3C3] pb-5'>
+                  <div className='flex flex-col gap-4 sm:gap-6 border-b border-[#C3C3C3] pb-6 '>
                     <Image src={department.icon} alt={department.title.toLowerCase()} width={70} height={70} />
-                    <h3 className='text-[#12223B] text-[20px] sm:text-[24px] leading-[31px] font-bold'>{department.title}</h3>
-                    <p className='text-[#667282] text-[16px] sm:text-[22px] sm:leading-[28.8px] font-normal'>{department.description}</p>
+                    <h3 className='text-[#12223B] text-[20px] sm:text-[20px] leading-[31px] font-bold'>{department.title}</h3>
+                    <p className='text-[#667282] text-[16px] sm:text-[18px] sm:leading-[26px] font-normal'>{department.description}</p>
                   </div>
                   <div className='mt-7'>
-                    <h3 className='text-[#2B8174] text-[40px] sm:text-[56px] leading-[61px] font-extrabold tracking-[-1.68px]'>{department.stat}</h3>
+                    <h3 className='text-[#2B8174] text-[35px] sm:text-[40px] leading-[61px] font-extrabold tracking-[-1.68px]'>{department.stat}</h3>
                     <p className='text-[#667282] text-[15px] sm:text-[18px] font-normal leading-[28.8px] tracking-[-0.54px]'>{department.statDescription}</p>
                   </div>
                 </div>
