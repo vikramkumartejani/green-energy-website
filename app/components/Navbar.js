@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='bg-[#F9F9F9] w-full border-b-0.4 border-[#000000] h-[100px] flex items-center px-3 md:px-10'>
+        <div className='bg-[#F9F9F9] w-full border-b-0.4 border-[#000000] h-[100px] flex items-center px-5 md:px-10'>
             <div className='max-w-[1920px] mx-auto w-full flex items-center justify-between'>
                 <Image src='/assets/Logo.svg' alt='Logo' width={142} height={78} className='mt-[-8px]' />
 
