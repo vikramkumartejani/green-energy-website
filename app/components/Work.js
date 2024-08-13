@@ -39,14 +39,14 @@ const boxesData = [
 
 const Work = () => {
   return (
-    <div className='py-10 w-full bg-[#F4F9F0] px-5 md:px-7'>
+    <div className='py-10 w-full bg-[#F4F9F0] px-5 sm:px-7'>
       <div className='flex items-center justify-center flex-col gap-1'>
         <div className='flex items-center justify-center gap-3'>
           <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
           <h3 className='text-[#294145] text-base font-semibold'>WORK</h3>
         </div>
-        <h3 className='text-[#103B38] text-[22px] sm:text-[33px] leading-[55px] font-semibold font-archivo text-center'>SCOPE OF WORK</h3>
-        <p className='text-[#666666] text-[13px] sm:text-[22px] leading-[22px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1116px] mx-auto'>Green Energy has made significant strides  in the Saudi market by assembling a team of  highly skilled specialists in their respective  fields, complemented by the expertise of our  international partners with extensive  experience in these domains.</p>
+        <h3 className='text-[#103B38] text-[22px] sm:text-[28px] lg:leading-[55px] font-semibold font-archivo text-center'>SCOPE OF WORK</h3>
+        <p className='text-[#666666]  text-[14px] sm:text-[20px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1116px] mx-auto'>Green Energy has made significant strides  in the Saudi market by assembling a team of  highly skilled specialists in their respective  fields, complemented by the expertise of our  international partners with extensive  experience in these domains.</p>
       </div>
 
       {/* Boxes */}
@@ -59,9 +59,9 @@ const Work = () => {
               style={{ backgroundImage: `url(${box.backgroundImage})` }}  
             ></div>
             <div className="relative z-20 p-1 xl:p-4 text-white text-center">
-              <h2 className="text-[25px] sm:text-[36px] leading-[24px] font-semibold mb-10">{box.title}</h2>
-              <p className="text-[13px] xl:text-[18px] leading-[22.5px] font-normal mb-5">{box.description}</p>
-              <p className="text-[13px] xl:text-[18px] leading-[22.5px] font-normal">{box.details}</p>
+              <h2 className="text-[25px] sm:text-[25px] leading-[24px] font-semibold mb-10">{box.title}</h2>
+              <p className="text-[12px] xl:text-[16px] leading-[22.5px] font-normal mb-5">{box.description}</p>
+              <p className="text-[12px] xl:text-[16px] leading-[22.5px] font-normal">{box.details}</p>
             </div>
           </div>
         ))}
