@@ -11,17 +11,17 @@ const teamMembers = [
   {
     name: 'Mr. Davor Domic',
     role: 'Partner / Oil & Gas Manager',
-    imageSrc: '/assets/team-one.svg',
+    imageSrc: '/assets/team-two.svg',
   },
   {
     name: 'Eng. Mahmoud Alsaied Ahmad',
     role: 'Operation Manager',
-    imageSrc: '/assets/team-one.svg',
+    imageSrc: '/assets/team-three.svg',
   },
   {
     name: 'Mr. Bassam Joupran',
     role: 'Financial consultant',
-    imageSrc: '/assets/team-one.svg',
+    imageSrc: '/assets/team-four.svg',
   },
 ];
 const OurTeam = () => {

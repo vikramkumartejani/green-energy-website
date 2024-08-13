@@ -21,7 +21,7 @@ export default function Home() {
       <KeyDepartments/>
       <OurLocation/>
       <Work/>
-      {/* <OurAervices/> */}
+      <OurAervices/>
       {/* <OurTrustedSuppliersAndProducts/> */}
       <ForYourInquiry/>
       <Footer/>

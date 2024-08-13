@@ -39,7 +39,7 @@ const boxesData = [
 
 const Work = () => {
   return (
-    <div className='py-10 w-full bg-[#F4F9F0] px-3 md:px-7 mb-10'>
+    <div className='py-10 w-full bg-[#F4F9F0] px-3 md:px-7'>
       <div className='flex items-center justify-center flex-col gap-1'>
         <div className='flex items-center justify-center gap-3'>
           <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
