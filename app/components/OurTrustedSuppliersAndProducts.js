@@ -40,7 +40,7 @@ const OurTrustedSuppliersAndProducts = () => {
           levels of satisfaction and performance in every aspect of our
           operations.
         </p>
-        <div className="my-[77px] w-full">
+        <div className="md:my-[77px] my-[50px] w-full">
           <LogosSlider />
         </div>
         <div className="flex lg:flex-row flex-col items-center md:justify-between justify-center max-w-[1235px] mb-[40px] lg:gap-0 gap-[40px]">
