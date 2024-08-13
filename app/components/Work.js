@@ -46,20 +46,20 @@ const Work = () => {
           <h3 className='text-[#294145] text-base font-semibold'>WORK</h3>
         </div>
         <h3 className='text-[#103B38] text-[22px] sm:text-[28px] lg:leading-[55px] font-semibold font-archivo text-center'>SCOPE OF WORK</h3>
-        <p className='text-[#666666]  text-[14px] sm:text-[20px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1116px] mx-auto'>Green Energy has made significant strides  in the Saudi market by assembling a team of  highly skilled specialists in their respective  fields, complemented by the expertise of our  international partners with extensive  experience in these domains.</p>
+        <p className='text-[#666666] text-[14px] sm:text-[20px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1116px] mx-auto'>Green Energy has made significant strides  in the Saudi market by assembling a team of  highly skilled specialists in their respective  fields, complemented by the expertise of our  international partners with extensive  experience in these domains.</p>
       </div>
 
       {/* Boxes */}
-      <div className="mt-16 w-full max-w-[1660px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
+      <div className="mt-16 w-full max-w-[1350px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
         {boxesData.map((box, index) => (
-          <div key={index} className="relative rounded-[40px] overflow-hidden px-3 xl:px-6 min-h-[525px] pt-12">
+          <div key={index} className="relative rounded-[40px] overflow-hidden px-3 xl:px-5 py-6">
             <div className="absolute inset-0 bg-[#05495ACC] z-10"></div>
             <div
               className="bg-cover bg-center absolute inset-0 rounded-[40px]"
               style={{ backgroundImage: `url(${box.backgroundImage})` }}  
             ></div>
             <div className="relative z-20 p-1 xl:p-4 text-white text-center">
-              <h2 className="text-[25px] sm:text-[25px] leading-[24px] font-semibold mb-10">{box.title}</h2>
+              <h2 className="text-[25px] sm:text-[25px] leading-[24px] font-semibold mb-5">{box.title}</h2>
               <p className="text-[12px] xl:text-[16px] leading-[22.5px] font-normal mb-5">{box.description}</p>
               <p className="text-[12px] xl:text-[16px] leading-[22.5px] font-normal">{box.details}</p>
             </div>
