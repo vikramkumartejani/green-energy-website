@@ -75,7 +75,7 @@ const KeyDepartments = () => {
         {/* Boxes */}
         <div className='mt-16 md:mt-28 grid sm:grid-cols-1 mdl:grid-cols-2 xlg:grid-cols-3 justify-items-center gap-7 max-w-[1280px] w-full h-full mx-auto' data-aos="fade-up">
           {departments.map((department) => (
-            <div key={department.id} className='sm:w-[406px] w-full' >
+            <div key={department.id} className='sm:w-[406px] w-full'  data-aos="fade-up">
               {department.image ? (
                 <div className='w-full h-full'>
                 <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]' />

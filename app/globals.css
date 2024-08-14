@@ -22,3 +22,7 @@ img{
  user-select: none;
 }
 
+
+html, body {
+  overflow-x: hidden;
+}

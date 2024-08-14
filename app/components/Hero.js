@@ -1,6 +1,14 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // Animation duration
+    });
+  }, []);
   return (
     <div className='w-full max-w-[1920px] px-5 md:px-10 mx-auto py-14'>
       <div

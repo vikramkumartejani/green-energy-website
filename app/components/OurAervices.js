@@ -1,6 +1,8 @@
 'use client'
-import Image from 'next/image'
-import { useState } from 'react';
+import Image from 'next/image';
+import React, { useEffect,useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const services = [
@@ -87,8 +89,15 @@ const OurAervices = () => {
   const currentPage = currentStartIndex / itemsPerPage;
   const totalPages = Math.ceil(services.length / itemsPerPage);
 
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // Animation duration
+    });
+  }, []);
+
   return (
-    <div className='my-10 px-5 md:px-7 py-10 relative' id="ouraervices"  data-aos="fade-up">
+    <div className='my-10 px-5 md:px-7 py-10 relative' id="ouraervices"   data-aos="fade-left">
       <div className='absolute right-0 top-0 h-full bg-[#F4F9F0]'  style={{ width: '80%' }}></div>
       <div className='relative flex items-center justify-center flex-col gap-1'>
         <div className='flex items-center justify-center gap-3'>
@@ -103,7 +112,7 @@ const OurAervices = () => {
       <div className='relative'>
         <div className='mt-5 w-full max-w-[1180px] mx-auto flex flex-col gap-6'>
           {services.slice(currentStartIndex, currentStartIndex + itemsPerPage).map((service, index) => (
-            <div key={index} className='flex items-center justify-between mdl:flex-row flex-col gap-5 bg-white rounded-[20px] px-6 py-3' >
+            <div key={index} className='flex items-center justify-between mdl:flex-row flex-col gap-5 bg-white rounded-[20px] px-6 py-3'  data-aos="fade-up">
               <div className='md:p-5 flex items-center gap-5 md:flex-row flex-col lg:gap-10'>
                 <Image src={service.imageSrc} alt={service.imageAlt} width={320} height={246} />
                 <div>

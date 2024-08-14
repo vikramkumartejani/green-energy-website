@@ -1,16 +1,24 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // Animation duration
+    });
+  }, []);
   return (
-    <div className='w-full relative' data-aos="fade-up">
+    <div className='w-full relative'>
       <div className='w-full py-10 lg:py-24 px-5 md:px-10 2xl:px-24 relative'>
         <div className='absolute inset-0 z-10' style={{ backgroundImage: "url('/assets/footer-bg.png')", backgroundSize: 'cover', backgroundPosition: 'center', opacity: '0.5' }}></div>
         <div className='absolute inset-0 bg-[#051E42]'></div>
 
         {/* Footer Content */}
-        <div className='relative z-20 text-white w-full max-w-[1250px] mx-auto' >
+        <div className='relative z-20 text-white w-full max-w-[1250px] mx-auto' data-aos="fade-left" >
           <div className='pb-10 border-b border-[#F4F9F04F] mb-10'>
             <Image src='/assets/Logo.svg' alt='Logo' width={229} height={126} />
           </div>
