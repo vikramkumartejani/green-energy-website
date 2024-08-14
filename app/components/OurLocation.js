@@ -3,13 +3,13 @@ import React from 'react'
 
 const OurLocation = () => {
   return (
-    <div className='w-full max-w-[1920px] mx-auto px-5 md:px-10 pt-14' id="location"  data-aos="fade-up">
+    <div className='w-full max-w-[1920px] mx-auto px-5 md:px-10 pt-14' id="location" data-aos="fade-up">
       <div className='flex items-center justify-center flex-col gap-2' >
         <div className='flex items-center justify-center gap-3'>
           <Image src='/assets/icons/location-icon.svg' alt='location-icon' width={25} height={25} />
           <h3 className='text-[#294145] text-base font-semibold'>OUR LOCATION</h3>
         </div>
-        <h3 className='text-[#103B38]  text-[22px] sm:text-[28px] lg:leading-[55px] font-semibold font-archivo text-center'>OUR COMPANY WORK   AREAS</h3>
+        <h3 className='text-[#103B38] text-[22px] sm:text-[28px] lg:leading-[55px] font-semibold font-archivo text-center'>OUR COMPANY WORK   AREAS</h3>
         <p className='text-[#4B4B4B] text-[14px] sm:text-[20px] sm:leading-[27px] text-center font-normal font-inter w-full max-w-[1018px] mx-auto'>Our company strategically operates in Canada, Egypt, and Saudi Arabia, specializing  in LPG, SNG, and MEP systems. Providing comprehensive services from system  design and installation to maintenance and distribution.</p>
       </div>
 
