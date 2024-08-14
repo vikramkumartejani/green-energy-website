@@ -77,8 +77,8 @@ const KeyDepartments = () => {
           {departments.map((department) => (
             <div key={department.id} className='sm:w-[406px] w-full' >
               {department.image ? (
-                <div className='w-full h-full'  data-aos="fade-up">
-                <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]' />
+                <div className='w-full h-full'>
+                <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]'  data-aos="fade-up" />
                 </div>
               ) : (
                 <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7'  data-aos="fade-up">
