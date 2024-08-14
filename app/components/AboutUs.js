@@ -1,9 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import LogosSlider from './LogosSlider'
 
 const AboutUs = () => {
   return (
     <div className='w-full'>
+       <div className="md:my-[77px] my-[50px] w-full">
+          <LogosSlider />
+        </div>
       <div className='bg-white w-full py-10 flex justify-between lg:flex-row flex-col-reverse items-center gap-5 max-w-[1300px] mx-auto px-5'>
         <div className='lg:max-w-[500px] w-full'>
           <Image src='/assets/about-us.svg' alt='about-us' width={500} height={400} className='w-full' />
