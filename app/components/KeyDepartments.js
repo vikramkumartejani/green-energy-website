@@ -73,7 +73,7 @@ const KeyDepartments = () => {
         </div>
 
         {/* Boxes */}
-        <div className='mt-16 md:mt-28 grid sm:grid-cols-1 mdl:grid-cols-2 xlg:grid-cols-3 justify-items-center gap-7 max-w-[1280px] w-full h-full mx-auto'>
+        <div className='mt-16 md:mt-28 grid sm:grid-cols-1 mdl:grid-cols-2 xlg:grid-cols-3 justify-items-center gap-7 max-w-[1280px] w-full h-full mx-auto' data-aos="fade-up">
           {departments.map((department) => (
             <div key={department.id} className='sm:w-[406px] w-full' >
               {department.image ? (
@@ -81,7 +81,7 @@ const KeyDepartments = () => {
                 <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]' />
                 </div>
               ) : (
-                <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7' data-aos="fade-up">
+                <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7'>
                   <div className='flex flex-col gap-4 sm:gap-6 border-b border-[#C3C3C3] pb-6 '>
                     <Image src={department.icon} alt={department.title.toLowerCase()} width={70} height={70} />
                     <h3 className='text-[#12223B] text-[20px] sm:text-[20px] leading-[31px] font-bold'>{department.title}</h3>

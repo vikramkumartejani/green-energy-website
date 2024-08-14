@@ -14,17 +14,17 @@ import OurLocation from "./components/OurLocation";
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <AboutUs />
-      <OurTeam />
-      <KeyDepartments />
-      <OurLocation />
-      <Work />
-      <OurAervices />
-      <OurTrustedSuppliersAndProducts />
-      <ForYourInquiry />
-      <Footer />
+      <Navbar  data-aos="fade-up"/>
+      <Hero  data-aos="fade-up"/>
+      <AboutUs  data-aos="fade-up"/>
+      <OurTeam  data-aos="fade-up"/>
+      <KeyDepartments  data-aos="fade-up"/>
+      <OurLocation  data-aos="fade-up"/>
+      <Work  data-aos="fade-up"/>
+      <OurAervices  data-aos="fade-up"/>
+      <OurTrustedSuppliersAndProducts data-aos="fade-up" />
+      <ForYourInquiry  data-aos="fade-up"/>
+      <Footer data-aos="fade-up" />
     </div>
   );
 }
