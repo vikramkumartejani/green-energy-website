@@ -22,7 +22,7 @@ const OurTrustedSuppliersAndProducts = () => {
         }}
       ></div>
 
-      <div className="flex flex-col items-center gap-[20px] py-[50px] relative text-white z-[20] " data-aos="fade-left">
+      <div className="flex flex-col items-center gap-[20px] py-[50px] relative text-white z-[20] " data-aos="fade-up">
         <h2 className="text-[23px] text-center sm:text-[27px] uppercase px-[25px] font-semibold font-archivo" >OUR TRUSTED SUPPLIERS AND PRODUCTS</h2>
         <p className="mt-1 text-[12px] sm:text-[18px] lg:leading-[22px] text-center font-normal lg:px-[110px] px-5 sm:px-10" >
           We pride ourselves on partnering with trusted suppliers who uphold the

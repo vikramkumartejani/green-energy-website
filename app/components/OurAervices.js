@@ -97,7 +97,7 @@ const OurAervices = () => {
   }, []);
 
   return (
-    <div className='my-10 px-5 md:px-7 py-10 relative' id="ouraervices"   data-aos="fade-left">
+    <div className='my-10 px-5 md:px-7 py-10 relative' id="ouraervices"   data-aos="fade-up">
       <div className='absolute right-0 top-0 h-full bg-[#F4F9F0]'  style={{ width: '80%' }}></div>
       <div className='relative flex items-center justify-center flex-col gap-1'>
         <div className='flex items-center justify-center gap-3'>
