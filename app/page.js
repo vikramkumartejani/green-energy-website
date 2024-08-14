@@ -8,8 +8,8 @@ import OurTrustedSuppliersAndProducts from "./components/OurTrustedSuppliersAndP
 import ForYourInquiry from "./components/ForYourInquiry";
 import Footer from "./components/Footer";
 import OurAervices from "./components/OurAervices";
+ import KeyDepartments from "./components/KeyDepartments";
 import OurLocation from "./components/OurLocation";
-import KeyDepartments from "./components/KeyDepartments";
 
 export default function Home() {
   return (

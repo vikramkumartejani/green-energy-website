@@ -63,7 +63,7 @@ const KeyDepartments = () => {
     <div className='bg-[#F4F9F0] w-full pt-16 pb-20 px-5'>
       <div className='max-w-[1920px] w-full mx-auto'>
         {/* Heading */}
-        <div className='flex items-center justify-center flex-col gap-1'>
+        <div className='flex items-center justify-center flex-col gap-1' data-aos="fade-up">
           <div className='flex items-center justify-center gap-3'>
             <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
             <h3 className='text-[#294145] text-base font-semibold'>KEY</h3>
@@ -75,13 +75,13 @@ const KeyDepartments = () => {
         {/* Boxes */}
         <div className='mt-16 md:mt-28 grid sm:grid-cols-1 mdl:grid-cols-2 xlg:grid-cols-3 justify-items-center gap-7 max-w-[1280px] w-full h-full mx-auto'>
           {departments.map((department) => (
-            <div key={department.id} className='sm:w-[406px] w-full'>
+            <div key={department.id} className='sm:w-[406px] w-full' >
               {department.image ? (
-                <div className='w-full h-full'>
+                <div className='w-full h-full'  data-aos="fade-up">
                 <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]' />
                 </div>
               ) : (
-                <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7'>
+                <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7'  data-aos="fade-up">
                   <div className='flex flex-col gap-4 sm:gap-6 border-b border-[#C3C3C3] pb-6 '>
                     <Image src={department.icon} alt={department.title.toLowerCase()} width={70} height={70} />
                     <h3 className='text-[#12223B] text-[20px] sm:text-[20px] leading-[31px] font-bold'>{department.title}</h3>

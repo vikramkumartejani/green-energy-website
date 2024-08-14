@@ -39,7 +39,7 @@ const boxesData = [
 
 const Work = () => {
   return (
-    <div className='py-10 w-full bg-[#F4F9F0] px-5 sm:px-7'>
+    <div className='py-10 w-full bg-[#F4F9F0] px-5 sm:px-7'  data-aos="fade-up">
       <div className='flex items-center justify-center flex-col gap-1'>
         <div className='flex items-center justify-center gap-3'>
           <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
@@ -50,9 +50,9 @@ const Work = () => {
       </div>
 
       {/* Boxes */}
-      <div className="mt-16 w-full max-w-[1350px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
+      <div className="mt-16 w-full max-w-[1350px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9" >
         {boxesData.map((box, index) => (
-          <div key={index} className="relative rounded-[40px] overflow-hidden px-3 xl:px-5 py-6">
+          <div key={index} className="relative rounded-[40px] overflow-hidden px-3 xl:px-5 py-6" data-aos="fade-up">
             <div className="absolute inset-0 bg-[#05495ACC] z-10"></div>
             <div
               className="bg-cover bg-center absolute inset-0 rounded-[40px]"

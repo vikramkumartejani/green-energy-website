@@ -4,12 +4,12 @@ import LogosSlider from './LogosSlider'
 
 const AboutUs = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full' id="aboutus">
        <div className="md:my-[77px] my-[50px] w-full">
           <LogosSlider />
         </div>
-      <div className='bg-white w-full py-10 flex justify-between lg:flex-row flex-col-reverse items-center gap-5 max-w-[1300px] mx-auto px-5'>
-        <div className='lg:max-w-[500px] w-full'>
+      <div data-aos="fade-up" className='bg-white w-full py-10 flex justify-between lg:flex-row flex-col-reverse items-center gap-5 max-w-[1300px] mx-auto px-5'>
+        <div className='lg:max-w-[500px] w-full'  data-aos="fade-up">
           <Image src='/assets/about-us.svg' alt='about-us' width={500} height={400} className='w-full' />
         </div>
         <div className='flex items-start justify-center flex-col gap-2'>
@@ -25,7 +25,7 @@ const AboutUs = () => {
       </div>
 
       {/* CEO & FOUNDER */}
-      <div className='px-5 md:px-7 bg-[#F4F9F0] w-full py-16'>
+      <div className='px-5 md:px-7 bg-[#F4F9F0] w-full py-16' data-aos="fade-up">
         <div className='max-w-[1440px] mx-auto w-full flex items-center xl:flex-row flex-col justify-between gap-5'>
           <div className='xl:w-1/2'>
             <Image src='/assets/founder-and-ceo.svg' alt='founder-and-ceo' width={554} height={554} className='rounded-[20px]' />

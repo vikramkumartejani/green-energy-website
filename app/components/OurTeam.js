@@ -26,7 +26,7 @@ const teamMembers = [
 ];
 const OurTeam = () => {
   return (
-    <div className='w-full py-24'>
+    <div className='w-full py-24' id="ourteam">
       <div
         className='relative pb-16 px-5 md:px-20 xlg:px-40'
         style={{
@@ -37,7 +37,7 @@ const OurTeam = () => {
         }}>
         <div className='absolute inset-0 bg-white opacity-90'></div>
 
-        <div className='relative z-10 flex xl:items-start items-center xl:flex-row flex-col justify-between gap-5 w-full max-w-[1600px] mx-auto'>
+        <div  data-aos="fade-up" className='relative z-10 flex xl:items-start items-center xl:flex-row flex-col justify-between gap-5 w-full max-w-[1600px] mx-auto'>
           <div className='flex items-start flex-col'>
             <div className='flex items-center justify-center gap-3 text-black'>
               <Image src='/assets/icons/key.svg' alt='key' width={25} height={25} />
@@ -52,7 +52,7 @@ const OurTeam = () => {
           <div className='grid xs:grid-cols-2 grid-cols-1'>
             {teamMembers.map((member, index) => (
               <div className='flex items-start gap-8 xs:ml-7' key={index}>
-                <div className='flex flex-col items-center w-full'>
+                <div className='flex flex-col items-center w-full'  data-aos="fade-up">
                   <Image src={member.imageSrc} alt='Team' width={217} height={285} />
                   <div className='bg-[#F4F9F0] rounded-md border border-[#2E8A26] w-full xs:max-w-[221px] text-center py-3 px-3'>
                     <h1 className='text-[#294145] text-[16px] leading-[18px] mb-2.5 font-semibold px-2 2xl:px-6'>

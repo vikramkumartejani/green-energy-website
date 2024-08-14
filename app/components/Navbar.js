@@ -33,22 +33,22 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href='/about' className={getLinkClass('/about')} onClick={() => handleLinkClick('/about')}>
+                        <Link href='#aboutus' className={getLinkClass('#aboutus')} onClick={() => handleLinkClick('#aboutus')}>
                             About Us
                         </Link>
                     </li>
                     <li>
-                        <Link href='/services' className={getLinkClass('/services')} onClick={() => handleLinkClick('/services')}>
+                        <Link href='#ouraervices' className={getLinkClass('#ouraervices')} onClick={() => handleLinkClick('#ouraervices')}>
                             Services
                         </Link>
                     </li>
                     <li>
-                        <Link href='/team' className={getLinkClass('/team')} onClick={() => handleLinkClick('/team')}>
+                        <Link href='#ourteam' className={getLinkClass('#ourteam')} onClick={() => handleLinkClick('#ourteam')}>
                             Our Team
                         </Link>
                     </li>
                     <li>
-                        <Link href='/location' className={getLinkClass('/location')} onClick={() => handleLinkClick('/location')}>
+                        <Link href='#location' className={getLinkClass('#location')} onClick={() => handleLinkClick('#location')}>
                             Location
                         </Link>
                     </li>
@@ -75,22 +75,22 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href='/about' className={getLinkClass('/about')} onClick={() => handleLinkClick('/about')}>
+                        <Link href='#aboutus' className={getLinkClass('#aboutus')} onClick={() => handleLinkClick('#aboutus')}>
                             About Us
                         </Link>
                     </li>
                     <li>
-                        <Link href='/services' className={getLinkClass('/services')} onClick={() => handleLinkClick('/services')}>
+                        <Link href='#ouraervices' className={getLinkClass('#ouraervices')} onClick={() => handleLinkClick('#ouraervices')}>
                             Services
                         </Link>
                     </li>
                     <li>
-                        <Link href='/team' className={getLinkClass('/team')} onClick={() => handleLinkClick('/team')}>
+                        <Link href='#ourteam' className={getLinkClass('#ourteam')} onClick={() => handleLinkClick('#ourteam')}>
                             Our Team
                         </Link>
                     </li>
                     <li>
-                        <Link href='/location' className={getLinkClass('/location')} onClick={() => handleLinkClick('/location')}>
+                        <Link href='#location' className={getLinkClass('#location')} onClick={() => handleLinkClick('#location')}>
                             Location
                         </Link>
                     </li>
