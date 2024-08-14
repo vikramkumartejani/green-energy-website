@@ -50,7 +50,7 @@ const Work = () => {
       </div>
 
       {/* Boxes */}
-      <div className="mt-16 w-full max-w-[1350px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9" data-aos="fade-up">
+      <div className="mt-16 w-full max-w-[1350px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
         {boxesData.map((box, index) => (
           <div key={index} className="relative rounded-[40px] overflow-hidden px-3 xl:px-5 py-6" >
             <div className="absolute inset-0 bg-[#05495ACC] z-10"></div>

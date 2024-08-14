@@ -60,7 +60,7 @@ const departments = [
 
 const KeyDepartments = () => {
   return (
-    <div className='bg-[#F4F9F0] w-full pt-16 pb-20 px-5'>
+    <div className='bg-[#F4F9F0] w-full pt-16 pb-20 px-5' data-aos="fade-up">
       <div className='max-w-[1920px] w-full mx-auto'>
         {/* Heading */}
         <div className='flex items-center justify-center flex-col gap-1' data-aos="fade-up">
