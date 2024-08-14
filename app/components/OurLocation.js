@@ -42,7 +42,7 @@ const OurLocation = () => {
       </div>
 
       {/* Map */}
-      <div className="relative mt-8 w-full max-w-[1770px] mx-auto h-[500px] md:h-[600px] lg:h-[700px] xl:h-[883px]">
+      <div className="relative mt-8 w-full max-w-[1770px] mx-auto h-[500px] md:h-[600px] lg:h-[700px] xl:h-[883px] lg:block hidden">
         {/* Background Image */}
         <Image
           src="/assets/location-image.svg"
@@ -60,9 +60,9 @@ const OurLocation = () => {
             className="absolute top-[40%] md:top-[47%] left-[5%] md:left-[3%] text-white"
             data-aos="zoom-in"
           >
-            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[100px] h-[100px] md:w-[150px] md:h-[150px] text-center flex flex-col items-center justify-center">
-              <h3 className="text-[12px] md:text-[15px] font-semibold">Canada</h3>
-              <p className="text-[7px] md:text-[9px] font-normal mt-2">
+            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[80px] h-[80px] md:w-[150px] md:h-[150px] text-center flex flex-col items-center justify-center">
+              <h3 className="text-[9px] md:text-[15px] font-semibold">Canada</h3>
+              <p className="text-[5px] md:text-[9px] font-normal mt-2">
                 ROVAD ENERGY (Rovad Surplus & supply) 424-5th Avenue NE, Calgary,
                 Alberta, Canada T2E0L1
               </p>
@@ -74,9 +74,9 @@ const OurLocation = () => {
             className="absolute top-[55%] md:top-[65%] left-[35%] md:left-[42%] text-white"
             data-aos="zoom-in"
           >
-            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[120px] h-[120px] md:w-[170px] md:h-[170px] text-center flex flex-col items-center justify-center">
-              <h3 className="text-[12px] md:text-[15px] font-semibold">Egypt</h3>
-              <p className="text-[7px] md:text-[9px] font-normal mt-2">
+            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[80px] h-[80px] md:w-[170px] md:h-[170px] text-center flex flex-col items-center justify-center">
+              <h3 className="text-[8px] md:text-[15px] font-semibold">Egypt</h3>
+              <p className="text-[5px] md:text-[9px] font-normal mt-2">
                 THE BOULEVARD FOR REAL ESTATE CO. Gadalla - st 4450/15 - Nasr city
                 Cairo - Egypt
               </p>
@@ -85,12 +85,12 @@ const OurLocation = () => {
 
           {/* KSA Location */}
           <div
-            className="absolute top-[50%] md:top-[60%] left-[50%] md:left-[59%] text-white"
+            className="absolute top-[50%] md:top-[60%] left-[70%] md:left-[65%] lg:left-[59%] text-white"
             data-aos="zoom-in"
           >
-            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[120px] h-[120px] md:w-[170px] md:h-[170px] text-center flex flex-col items-center justify-center">
-              <h3 className="text-[12px] md:text-[15px] font-semibold">Ksa</h3>
-              <p className="text-[7px] md:text-[9px] font-normal mt-1">
+            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[80px] h-[80px] md:w-[170px] md:h-[170px] text-center flex flex-col items-center justify-center">
+              <h3 className="text-[9px] md:text-[15px] font-semibold">Ksa</h3>
+              <p className="text-[5px] md:text-[9px] font-normal mt-1">
                 GREEN ENERGY ENGINEERING & CONTRACTING Alyarmouk- Tabarjal st. -
                 3953 -13243 Riyadh - KSA
               </p>
@@ -99,7 +99,10 @@ const OurLocation = () => {
         </div>
       </div>
 
-
+      {/* Mobile */}
+      <div className="mt-5 lg:hidden block" >
+        <Image src='/assets/location-two.svg' alt="Map" width={1200} height={883}  data-aos="zoom-in" />
+      </div>
 
       <div
         className="my-5 bg-[#396D76] w-full max-w-[1770px] mx-auto text-center px-4 sm:px-8 py-5 rounded-3xl text-white"
