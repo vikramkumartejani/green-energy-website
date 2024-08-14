@@ -78,10 +78,10 @@ const KeyDepartments = () => {
             <div key={department.id} className='sm:w-[406px] w-full' >
               {department.image ? (
                 <div className='w-full h-full'>
-                <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]'  data-aos="fade-up" />
+                <Image src={department.image} alt='box' width={50} height={400} className='w-full mdl:w-[380px]' />
                 </div>
               ) : (
-                <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7'  data-aos="fade-up">
+                <div className='border border-[#12223B30] w-full rounded-[40px] px-5 py-7 sm:p-7' data-aos="fade-up">
                   <div className='flex flex-col gap-4 sm:gap-6 border-b border-[#C3C3C3] pb-6 '>
                     <Image src={department.icon} alt={department.title.toLowerCase()} width={70} height={70} />
                     <h3 className='text-[#12223B] text-[20px] sm:text-[20px] leading-[31px] font-bold'>{department.title}</h3>
