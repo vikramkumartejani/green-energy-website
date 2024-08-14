@@ -14,9 +14,9 @@ const OurTrustedSuppliersAndProducts = () => {
         }}
       ></div>
 
-      <div className="flex flex-col items-center gap-[20px] py-[50px] relative text-white z-[20] " data-aos="fade-up">
-        <h2 className="text-[23px] text-center sm:text-[27px] uppercase px-[25px] font-semibold font-archivo">OUR TRUSTED SUPPLIERS AND PRODUCTS</h2>
-        <p className="mt-1 text-[12px] sm:text-[18px] lg:leading-[22px] text-center font-normal lg:px-[110px] px-5 sm:px-10">
+      <div className="flex flex-col items-center gap-[20px] py-[50px] relative text-white z-[20] ">
+        <h2 className="text-[23px] text-center sm:text-[27px] uppercase px-[25px] font-semibold font-archivo"  data-aos="fade-up">OUR TRUSTED SUPPLIERS AND PRODUCTS</h2>
+        <p className="mt-1 text-[12px] sm:text-[18px] lg:leading-[22px] text-center font-normal lg:px-[110px] px-5 sm:px-10"  data-aos="fade-up">
           We pride ourselves on partnering with trusted suppliers who uphold the
           highest standards of quality and reliability. Our suppliers are
           carefully selected based on their track record of delivering superior
@@ -28,6 +28,7 @@ const OurTrustedSuppliersAndProducts = () => {
           levels of satisfaction and performance in every aspect of our
           operations.
         </p>
+
         {/* Slider */}
         <div className="md:my-[77px] my-[50px] w-full">
           <LogosSlider />
