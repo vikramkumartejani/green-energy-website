@@ -42,50 +42,65 @@ const OurLocation = () => {
       </div>
 
       {/* Map */}
-      <div className="relative mt-8 w-full max-w-[1770px] mx-auto h-[883px]">
+      <div className="relative mt-8 w-full max-w-[1770px] mx-auto h-[500px] md:h-[600px] lg:h-[700px] xl:h-[883px]">
         {/* Background Image */}
         <Image
           src="/assets/location-image.svg"
           alt="Location"
           layout="fill"
-          objectFit="contain"
-          className="absolute inset-0 z-0"
+          objectFit="cover"
+          className="absolute inset-0 z-0 rounded-[20px] md:rounded-[30px] lg:rounded-[40px] min-h-[400px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[883px]"
           data-aos="fade-up"
         />
 
         {/* Overlay Content */}
         <div className="relative z-10 h-full w-full">
           {/* Canada Location */}
-          <div className="absolute top-[47%] left-[10%] text-white" data-aos="zoom-in">
-          <div className="bg-[#0B4456] px-4 rounded-full w-[150px] h-[150px] text-center flex flex-col items-center justify-center">
-              <h3 className="text-[15px] font-semibold">Canada</h3>
-              <p className="text-[9px] font-normal mt-2">
-                ROVAD ENERGY  (Rovad Surplus &  supply)  424-5th Avenue NE,  Calgary, Alberta,  Canada T2E0L1
+          <div
+            className="absolute top-[40%] md:top-[47%] left-[5%] md:left-[3%] text-white"
+            data-aos="zoom-in"
+          >
+            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[100px] h-[100px] md:w-[150px] md:h-[150px] text-center flex flex-col items-center justify-center">
+              <h3 className="text-[12px] md:text-[15px] font-semibold">Canada</h3>
+              <p className="text-[7px] md:text-[9px] font-normal mt-2">
+                ROVAD ENERGY (Rovad Surplus & supply) 424-5th Avenue NE, Calgary,
+                Alberta, Canada T2E0L1
               </p>
             </div>
           </div>
 
           {/* Egypt Location */}
-          <div className="absolute top-[65%] left-[42%] text-white" data-aos="zoom-in">
-            <div className="bg-[#0B4456] px-4 rounded-full w-[170px] h-[170px] text-center flex flex-col items-center justify-center">
-              <h3 className="text-[15px] font-semibold">Egypt</h3>
-              <p className="text-[9px] font-normal mt-2">
-                THE BOULEVARD FOR REAL ESTATE CO. Gadalla - st 4450/15 - Nasr city Cairo - Egypt
+          <div
+            className="absolute top-[55%] md:top-[65%] left-[35%] md:left-[42%] text-white"
+            data-aos="zoom-in"
+          >
+            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[120px] h-[120px] md:w-[170px] md:h-[170px] text-center flex flex-col items-center justify-center">
+              <h3 className="text-[12px] md:text-[15px] font-semibold">Egypt</h3>
+              <p className="text-[7px] md:text-[9px] font-normal mt-2">
+                THE BOULEVARD FOR REAL ESTATE CO. Gadalla - st 4450/15 - Nasr city
+                Cairo - Egypt
               </p>
             </div>
           </div>
 
           {/* KSA Location */}
-          <div className="absolute top-[60%] left-[59%] text-white" data-aos="zoom-in">
-          <div className="bg-[#0B4456] px-4 rounded-full w-[170px] h-[170px] text-center flex flex-col items-center justify-center">
-              <h3 className="text-[15px] font-semibold">Ksa</h3>
-              <p className="text-[9px] font-normal mt-1">
-                GREEN ENERGY  ENGINEERING &  CONTRACTING  Alyarmouk- Tabarjal  st. -  3953 -13243  Riyadh - KSA
+          <div
+            className="absolute top-[50%] md:top-[60%] left-[50%] md:left-[59%] text-white"
+            data-aos="zoom-in"
+          >
+            <div className="bg-[#0B4456] px-2 md:px-4 rounded-full w-[120px] h-[120px] md:w-[170px] md:h-[170px] text-center flex flex-col items-center justify-center">
+              <h3 className="text-[12px] md:text-[15px] font-semibold">Ksa</h3>
+              <p className="text-[7px] md:text-[9px] font-normal mt-1">
+                GREEN ENERGY ENGINEERING & CONTRACTING Alyarmouk- Tabarjal st. -
+                3953 -13243 Riyadh - KSA
               </p>
             </div>
           </div>
         </div>
       </div>
+
+
+
       <div
         className="my-5 bg-[#396D76] w-full max-w-[1770px] mx-auto text-center px-4 sm:px-8 py-5 rounded-3xl text-white"
         data-aos="fade-up"
