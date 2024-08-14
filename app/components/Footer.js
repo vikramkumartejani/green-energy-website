@@ -18,7 +18,7 @@ const Footer = () => {
         <div className='absolute inset-0 bg-[#051E42]'></div>
 
         {/* Footer Content */}
-        <div className='relative z-20 text-white w-full max-w-[1250px] mx-auto' data-aos="fade-left" >
+        <div className='relative z-20 text-white w-full max-w-[1250px] mx-auto' data-aos="fade-up" >
           <div className='pb-10 border-b border-[#F4F9F04F] mb-10'>
             <Image src='/assets/Logo.svg' alt='Logo' width={229} height={126} />
           </div>
@@ -91,7 +91,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className='w-full bg-[#0C4B3E] px-3 py-5 sm:py-7'>
+      <div className='w-full bg-[#0C4B3E] px-3 py-5 sm:py-7' data-aos="fade-up">
         <h3 className='text-white text-[14px] font-normal font-inter leading-[22.5px] text-center'  >
           Copyright © 2024 . All rights reserved.
         </h3>
